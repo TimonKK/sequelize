@@ -1,7 +1,7 @@
 {
-  "name": "sequelize",
+  "name": "sequelize-with-clickhouse",
   "description": "Multi dialect ORM for Node.JS",
-  "version": "0.0.0-development",
+  "version": "4.38.8",
   "author": "Sascha Depold <sascha@depold.com>",
   "contributors": [
     {
@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "bluebird": "^3.5.0",
+    "clickhouse": "^1.2.20",
     "cls-bluebird": "^2.1.0",
     "debug": "^3.1.0",
     "depd": "^1.1.0",
@@ -82,7 +83,7 @@
     "semantic-release": "^15.0.0",
     "sinon": "^4.3.0",
     "sinon-chai": "^2.14.0",
-    "sqlite3": "^3.x",
+    "sqlite3": "4.0.1",
     "tedious": "1.14.0",
     "uuid-validate": "^0.0.2",
     "validate-commit-msg": "^2.12.2"
@@ -93,6 +94,7 @@
     "postgresql",
     "postgres",
     "mssql",
+    "clickhouse",
     "orm",
     "nodejs",
     "object relational mapper"
